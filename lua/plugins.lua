@@ -23,6 +23,12 @@ require("lazy").setup({
 		end
 	},
 
+    -- Commentary plugins
+    {
+        "tpope/vim-commentary",
+        lazy = false
+    },
+
 	-- Vscode-like pictograms
 	{
 		"onsails/lspkind.nvim",
